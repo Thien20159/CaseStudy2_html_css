@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurence</title>
+    <link rel="stylesheet" href="./style_detail.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <!-- Header Start -->
+    <!-- logo -->
+    <div class="logo">
+        <img src="./assets/images/logo.png" width="100px" height="70px" alt="">
+    </div>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid" style="margin: 0 -1%;">
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+
+            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+            <ul class="navbar__ul">
+                <!-- Home -->
+                <li class="navbar-Home nav-item dropdown">
+
+                    <a class="navbar-Home-1 nav-link dropdown" href="#" id="fileDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                        HOME
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-home">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </li>
+                <!-- Category -->
+                <li class="navbar-Category nav-item dropdown">
+                    <a class="navbar-Category-1 nav-link dropdown" href="#" id="fileDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                        CATEGORY
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Politics - law books</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Book of Science, Technology - Economics</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Books of Literature and Art</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Book of Culture - Society - History</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Books of Stories, Novels</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Books for children</a></li>
+                    </ul>
+                </li>
+                <!-- Suggest -->
+                <li class="navbar-Suggest nav-item dropdown">
+                    <a class="navbar-Suggest-1 nav-link dropdown" href="#" id="fileDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                        SUGGEST
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </li>
+                <!-- Support -->
+                <li class="navbar-Support nav-item dropdown">
+                    <a class="navbar-Support-1 nav-link dropdown" href="#" id="fileDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                        CONTACT
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="input-search form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="button-1-search btn btn-outline-success" type="submit" style="text-decoration: none; color: white;
+                    font-size: 17px; font-weight: 600;">SEARCH</button>
+                <button class="button-login btn btn-outline-success" type="submit"> <a href="./login.html" style="text-decoration: none; color: white;
+                        font-size: 17px; font-weight: 600;">LOGIN</a></button>
+            </form>
+            </form>
+        </div>
+        </div>
+    </nav>
+    <!-- Navbar-end -->
+
+    <!-- Detail-Start -->
+
+    <div class="Detail-container-plus">
+        <div class="Detail-container-1">
+            <div class="Detail-container-1-img">
+                <img style="width: 350px; height: 350px; padding: 0 50px; " src="./assets/images/book2.png" alt="">
+            </div>
+            <div class="Detail-container-1-name-price-text">
+                <div class="Detail-container-1-span-name">
+                    <span>
+                        Eos Loboortis
+                    </span>
+                </div>
+                <div class="Detail-container-1-span-price">
+                    $200.00
+                </div>
+                <div class="Detail-container-1-span-text">
+                    <span>Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically pontificate installed base portals after maintainable product</span>
+                </div>
+                <div class="Detail-container-1-input-cart-heart-menu">
+                    <div class="Detail-container-1-input">
+                        <input class="Detail-container-1-input-1" type="number" min="1">
+                    </div>
+                    <div class="Detail-container-1-cart" >
+                        <button><a class="Detail-container-1-cart-1" href="#">Add to cart</a></button>
+                    </div>
+                    <div class="Detail-container-1-heart" >
+                        <button><i  class='Detail-container-1-heart-1 bx bxs-heart'></i></button>
+                    </div>
+                    <div class="Detail-container-1-menu" >
+                        <button><i class=' Detail-container-1-menu-1 bx bx-menu' ></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Detail-container-2">
+            <div class="Detail-container-2-button">
+                <button><a href="#">REVIEWS (0)</a></button>
+            </div>
+        </div>
+    
+        <div class="Detail-container-3">
+            <div class="Detail-container-3-span-1-Reviews">
+                <span>Reviews</span>
+            </div>
+            <div class="Detail-container-3-span-2">
+                <span>There are no reviews yet.</span>
+            </div>
+            <div class="Detail-container-3-span-3">
+                <span>Be the first to review “The Book Of Love”</span>
+            </div>
+            <div class="Detail-container-3-span-4">
+                <span>Your email address will not be published.</span>
+            </div>
+            <div class="Detail-container-3-span-5">
+                <span>Your Review *</span>
+            </div>
+            <div >
+                <textarea style="width:100%; boder:1px solid rgb(255, 255, 255);"  rows="3"></textarea>
+            </div>
+            <div class="Detail-container-3-name">
+                <span>Name *</span>
+            </div>
+            <div class="Detail-container-3-input-2">
+                <input style="width: 300px;" class="input-search form-control" type="search" placeholder="" aria-label="Search">
+            </div>
+            <div  class="Detail-container-3-email">
+                <span>Email *</span>
+            </div>
+            <div class="Detail-container-3-input-3">
+                <input style="width: 300px;" class="input-search form-control" type="search" placeholder="" aria-label="Search">
+            </div>
+            <div class="Detail-container-3-submit">
+                <button type="submit">SUBMIT</button>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <!-- Detail-End -->
+    <!-- Contact Start -->
+    <!-- SUBSCRIBE -->
+    <div class="contact-subscribe">
+        <div class="contact-subscribe-span" >
+            <span class="contact-subscribe-span-1">SUBSCRIBE TO OUR NEWS LETTER</span>
+            <span class="contact-subscribe-span-2">
+                Enter your e-mail address to receive regular updates, as well as news on upcoming events and special offers.</span>
+        </div>
+        <div class="contact-subscribe-input">
+            <input style="width: 314px; height: 51px;" class="input-search form-control" type="search" placeholder="Email Address" aria-label="Search"><i class='contact-subscribe-input-icon bx bxl-gmail'></i>
+        </div>
+    </div>
+
+    <div class="Contact-container">
+        <div class="Contact-1">
+            <div class="Contact-1-logo">
+                <img style="width: 100px; height: 70px;" src="./assets/images/logo.png" >
+            </div>
+            <div class="Contact-1-ul">
+                <ul>
+                    <li style="list-style-type: none; font-size: 15px;margin: 0 0 10px 0; font-family:'Roboto Slab', serif ;"><i style="font-size: 20px;color: #27ae61; margin:0px 6px 0 0;" class='bx bx-current-location'></i><span>868 Bechole Road, Victory Lorem Ispuse, New York</span></li>
+                    <li style="list-style-type: none; font-size: 15px;margin: 0 0 10px 0; font-family:'Roboto Slab', serif ;"><i style="font-size: 20px;color: #27ae61; margin:0px 6px 0 0;" class='bx bx-phone-call'></i><span>Phone: (+80) 123 456 Fax: (+80) 123 456 789</span></li>
+                    <li style=" list-style-type: none;font-size: 15px;margin: 0 0 10px 0; font-family:'Roboto Slab', serif ;"><i style="font-size: 20px;color: #27ae61; margin:0px 6px 0 0;" class='bx bxl-gmail' ></i><span>Email: Contact@example.com Website: www.example.com</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="Contact-2">
+            <span>SHOPPING GUIDE</span>
+            <ul>
+                <li class="Contact-2-ul-li-1"><a class="Contact-2-ul-li-a-1" href="#">How to buy</a></li>
+                <li class="Contact-2-ul-li-2"><a class="Contact-2-ul-li-a-2" href="#">Faq</a></li>
+                <li class="Contact-2-ul-li-3"><a class="Contact-2-ul-li-a-3" href="#">Store Locations</a></li>
+                <li class="Contact-2-ul-li-4"><a class="Contact-2-ul-li-a-4" href="#">Return Policy</a></li>
+                <li class="Contact-2-ul-li-5"><a class="Contact-2-ul-li-a-5" href="#">Payment</a></li>
+                <li class="Contact-2-ul-li-6"><a class="Contact-2-ul-li-a-6" href="#">Shipment</a></li>
+            </ul>
+        </div>
+        <div class="Contact-3">
+            <span>INFORMATION</span>
+            <ul>
+                <li class="Contact-3-ul-li-1"><a class="Contact-3-ul-li-a-1" href="#">About Us</a></li>
+                <li class="Contact-3-ul-li-2"><a class="Contact-3-ul-li-a-2" href="#">Delivery information</a></li>
+                <li class="Contact-3-ul-li-3"><a class="Contact-3-ul-li-a-3" href="#">Privacy policy</a></li>
+                <li class="Contact-3-ul-li-4"><a class="Contact-3-ul-li-a-4" href="#">Discount</a></li>
+                <li class="Contact-3-ul-li-5"><a class="Contact-3-ul-li-a-5" href="#">Customer service</a></li>
+                <li class="Contact-3-ul-li-6"><a class="Contact-3-ul-li-a-6" href="#">Terms & condition</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Contact End -->
+</body>
+</html>

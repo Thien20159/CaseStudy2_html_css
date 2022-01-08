@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurence</title>
+    <link rel="stylesheet" href="./style_index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+
+<body>
+    <!-- Header Start -->
+    <!-- logo -->
+    <div class="logo">
+        <img src="./assets/images/logo.png" width="100px" height="70px" alt="">
+    </div>
+
+    <!-- Navbar Start -->
+    <nav style="height: 61px;" class="navbar navbar-expand-lg">
+        <div class="container-fluid" style="margin: 0 -1%;">
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+
+            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+            <ul class="navbar__ul">
+                <!-- Home -->
+                <li class="navbar-Home nav-item dropdown">
+
+                    <a class="navbar-Home-1 nav-link dropdown" href="#" id="fileDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                        HOME
+                    </a>
+                </li>
+                <!-- Category -->
+                <li class="navbar-Category nav-item dropdown">
+                    <a class="navbar-Category-1 nav-link dropdown" href="#" id="fileDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                        CATEGORY
+                    </a>
+                    <div class="CATEGORY-container">
+                        <div class="CATEGORY-container-NOVEL">
+                            <div class="CATEGORY-container-NOVEL-button">
+                                <button><a class="CATEGORY-container-NOVEL-button-a" href="#">NOVEL</a></button>
+                            </div>
+                            <div class="CATEGORY-container-NOVEL-a">
+                                <a href="#">Romance</a>
+                            </div>
+                            <div class="CATEGORY-container-NOVEL-a">
+                                <a href="#">Fantasy</a>
+                            </div>
+                            <div class="CATEGORY-container-NOVEL-a">
+                                <a href="#">Thrillers</a>
+                            </div>
+                            <div class="CATEGORY-container-NOVEL-a">
+                                <a href="#">Science Fiction</a>
+                            </div>
+                            <div class="CATEGORY-container-NOVEL-a">
+                                <a href="#">Historical Fiction</a>
+                            </div>
+                            
+                        </div>
+                        <div class="CATEGORY-container-BUSINESS">
+                            <div class="CATEGORY-container-BUSINESS-button">
+                                <button><a class="CATEGORY-container-BUSINESS-button-a" href="#">BUSINESS</a></button>
+                            </div>
+                            <div class="CATEGORY-container-BUSINESS-a">
+                                <a href="#">Budgeting and Finance</a>
+                            </div>
+                            <div class="CATEGORY-container-BUSINESS-a">
+                                <a href="#">Creative Thinking</a>
+                            </div>
+                            <div class="CATEGORY-container-BUSINESS-a">
+                                <a href="#">Personal Finance</a>
+                            </div>
+                            <div class="CATEGORY-container-BUSINESS-a">
+                                <a href="#">People Management</a>
+                            </div>
+                            <div class="CATEGORY-container-BUSINESS-a">
+                                <a href="#">Sales and Marketting</a>
+                            </div>
+                        </div>
+                        <div class="CATEGORY-container-HEALTH-AND-BEAUTY">
+                            <div class="CATEGORY-container-HEALTH-AND-BEAUTY-button">
+                                <button><a class="CATEGORY-container-HEALTH-AND-BEAUTY-button-a" href="#">HEALTH AND BEAUTY</a></button>
+                            </div>
+                            <div class="CATEGORY-container-HEALTH-AND-BEAUTY-a">
+                                <a href="#">Budgeting and Finance</a>
+                            </div>
+                            <div class="CATEGORY-container-HEALTH-AND-BEAUTY-a">
+                                <a href="#">Creative Thinking</a>
+                            </div>
+                            <div class="CATEGORY-container-HEALTH-AND-BEAUTY-a">
+                                <a href="#">Personal Finance</a>
+                            </div>
+                            <div class="CATEGORY-container-HEALTH-AND-BEAUTY-a">
+                                <a href="#">People Management</a>
+                            </div>
+                            <div class="CATEGORY-container-HEALTH-AND-BEAUTY-a">
+                                <a href="#">Sales and Marketting</a>
+                            </div>
+                        </div>
+                        <div class="CATEGORY-container-HISTORY">
+                            <div class="CATEGORY-container-HISTORY-button">
+                                <button><a class="CATEGORY-container-HISTORY-button-a" href="#">HISTORY</a></button>
+                            </div>
+                            <div class="CATEGORY-container-HISTORY-a">
+                                <a href="#">Romance</a>
+                            </div>
+                            <div class="CATEGORY-container-HISTORY-a">
+                                <a href="#">Fantasy</a>
+                            </div>
+                            <div class="CATEGORY-container-HISTORY-a">
+                                <a href="#">Thrillers</a>
+                            </div>
+                            <div class="CATEGORY-container-HISTORY-a">
+                                <a href="#">Science Fiction</a>
+                            </div>
+                            <div class="CATEGORY-container-HISTORY-a">
+                                <a href="#">Historical Fiction</a>
+                            </div>
+                        </div>
+                
+                    </div>
+                    
+                </li>
+                <!-- Suggest -->
+                <li class="navbar-Suggest nav-item dropdown">
+                    <a class="navbar-Suggest-1 nav-link dropdown" href="./cart.html" id="fileDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                        CART
+                    </a>
+                    
+                </li>
+                <!-- Support -->
+                <li class="navbar-Support nav-item dropdown">
+                    <a class="navbar-Support-1 nav-link dropdown" href="#" id="fileDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                        CONTACT
+                    </a>
+                    <div class="CONTACT-container">
+                        <div class="CONTACT-container-1">
+                            <div class="CONTACT-container--a">
+                                <a href="#">About Us</a>
+                            </div>
+                            <div class="CONTACT-container--a">
+                                <a href="#">Blog</a>
+                            </div>
+                            <div class="CONTACT-container--a">
+                                <a href="#">Sidebar Left</a>
+                            </div>
+                            <div class="CONTACT-container--a">
+                                <a href="#">Sidebar Right</a>
+                            </div>
+                            <div class="CONTACT-container--a">
+                                <a href="#">FAQ</a>
+                            </div>
+                            <div class="CONTACT-container--a">
+                                <a style="border-bottom: none;" href="#">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="input-search form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="button-1-search btn btn-outline-success" type="submit" style="text-decoration: none; color: white;
+                    font-size: 17px; font-weight: 600;">SEARCH</button>
+                <button class="button-login btn btn-outline-success" type="submit"> <a href="./login.html" style="text-decoration: none; color: white;
+                        font-size: 17px; font-weight: 600;">LOGIN</a></button>
+            </form>
+            </form>
+        </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Header End -->
+
+    <!-- Carousel Content Start -->
+    <div>
+        <img class="Carousel-Content-Img"  src="./assets/images/background-login.jpg" alt="">
+    </div>
+    <!-- <div class="carousel">
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active " data-bs-interval="200">
+                    <img style="border-radius: 5px; opacity: 1; width: 1220px;height: 650px;"
+                        src="./assets/images/background-carousel-.jpg" class="d-block">
+
+                </div>
+                <div class="carousel-item" data-bs-interval="200" style="width: 50%; height: 50%;">
+                    <img style="border-radius: 5px;width: 1220px; height: 650px;"
+                        src="./assets/images/background-carousel-.jpg" class="d-block">
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button style="margin-right: 120px;" class="carousel-control-next" type="button"
+                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div> -->
+    <!-- Carousel Content End -->
+    <!-- Start Card - BEST SELLING -->
+    <div class="h1-card-best">
+        <div class="card-BEST-SELLING">BEST SELLING</div>
+    </div>
+    <div class="Container-Card">
+        <div class="card-span"></div>
+        <div class="card-1">
+            <div class="card" style="width: 200px;">
+                <img style="padding: 20px 20px; " src="./assets/images/book1.png" class="card-img-top" alt="...">
+                <div class="item--button"><button class="button-search"><a href="./detail-1-Loving-Kitchen-2.html"><i
+                                class='icon-search bx bx-search'></i></a></button></div>
+                <div class="cart-menu-heart">
+                    <div class="item--1"><button class="button-add"><a style="color: white; text-decoration: none;"
+                                href="./cart.html">Add to cart</a></button></div>
+                    <div class="item--2"><button class="button-menu"><a style="color: white;" href="#"><i
+                                    class='icon-menu bx bx-menu'></i></a></button></div>
+                    <div class="item--3"><button class="button-heart"><a style="color: white;" href="#"><i
+                                    class='icon-heart bx bxs-heart'></i></a></button></div>
+                </div>
+                <div class="card-body">
+
+                    <div>
+                        <a class="card-name" href="./detail-1-Loving-Kitchen-2.html">Loving Kitchen 2</a>
+                    </div>
+                    <div>
+                        <a class="card-price" href="./detail-1-Loving-Kitchen-2.html">$20.00</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card-2">
+            <div class="card" style="width: 200px;">
+                <img style="padding: 20px 20px; " src="./assets/images/book2.png" class="card-img-top" alt="...">
+                <div class="item--button"><button class="button-search"><a href="./detail-2.html"><i
+                                class='icon-search bx bx-search'></i></a></button></div>
+                <div class="cart-menu-heart">
+                    <div class="item--1"><button class="button-add"><a style="color: white; text-decoration: none;"
+                                href="#">Add to cart</a></button></div>
+                    <div class="item--2"><button class="button-menu"><a style="color: white;" href="#"><i
+                                    class='icon-menu bx bx-menu'></i></a></button></div>
+                    <div class="item--3"><button class="button-heart"><a style="color: white;" href="#"><i
+                                    class='icon-heart bx bxs-heart'></i></a></button></div>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <a class="card-name" href="./detail-2.html">Eos Loboortis</a>
+                    </div>
+                    <div>
+                        <a class="card-price" href="./detail-2.html">$200.00</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-3">
+            <div class="card" style="width: 200px;">
+                <img style="padding: 20px 20px; " src="./assets/images/book3.png" class="card-img-top" alt="...">
+                <div class="item--button"><button class="button-search"><a href="./detail-3.html"><i
+                                class='icon-search bx bx-search'></i></a></button></div>
+                <div class="cart-menu-heart">
+                    <div class="item--1"><button class="button-add"><a style="color: white; text-decoration: none;"
+                                href="#">Add to cart</a></button></div>
+                    <div class="item--2"><button class="button-menu"><a style="color: white;" href="#"><i
+                                    class='icon-menu bx bx-menu'></i></a></button></div>
+                    <div class="item--3"><button class="button-heart"><a style="color: white;" href="#"><i
+                                    class='icon-heart bx bxs-heart'></i></a></button></div>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <a class="card-name" href="./detail-3.html">The Third Planet</a>
+                    </div>
+                    <div>
+                        <a class="card-price" href="./detail-3.html">$75.00</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card-4">
+            <div class="card" style="width: 200px;">
+                <img style="padding: 20px 20px; " src="./assets/images/book4.png" class="card-img-top" alt="...">
+                <div class="item--button"><button class="button-search"><a href="./detail-4.html"><i
+                                class='icon-search bx bx-search'></i></a></button></div>
+                <div class="cart-menu-heart">
+                    <div class="item--1"><button class="button-add"><a style="color: white; text-decoration: none;"
+                                href="#">Add to cart</a></button></div>
+                    <div class="item--2"><button class="button-menu"><a style="color: white;" href="#"><i
+                                    class='icon-menu bx bx-menu'></i></a></button></div>
+                    <div class="item--3"><button class="button-heart"><a style="color: white; " href="#"><i
+                                    class='icon-heart bx bxs-heart'></i></a></button></div>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <a class="card-name" href="./detail-4.html">Nam Dolor Felis 6</a>
+                    </div>
+                    <div>
+                        <a class="card-price" href="./detail-4.html">$50.00</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card-5">
+            <div class="card" style="width: 200px;">
+                <img style="padding: 20px 20px; " src="./assets/images/book5.png" class="card-img-top" alt="...">
+                <div class="item--button"><button class="button-search"><a href="./detail-5.html"><i
+                                class='icon-search bx bx-search'></i></a></button></div>
+                <div class="cart-menu-heart">
+                    <div class="item--1"><button class="button-add"><a style="color: white; text-decoration: none;"
+                                href="#">Add to cart</a></button></div>
+                    <div class="item--2"><button class="button-menu"><a style="color: white; " href="#"><i
+                                    class='icon-menu bx bx-menu'></i></a></button></div>
+                    <div class="item--3"><button class="button-heart"><a style="color: white;" href="#"><i
+                                    class='icon-heart bx bxs-heart'></i></a></button></div>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <a class="card-name" href="./detail-5.html">The Best Investment</a>
+                    </div>
+                    <div>
+                        <a class="card-price" href="./detail-5.html">$360.00</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Card -->
+    <!-- Space Start-->
+    <div class="space-container">
+        <div class="span-button">
+            <span class="space-span-1">Join 100,321 Happy readers And Get Access To Our
+                Entire Collection Of 1000 ebooks For The Price Of One</span>
+            <span class="space-span-2">We offer a 45 Day Money Back Guarantee, so joining is risk-free!</span>
+            <div><button class="space-button-signin"><a class="space-button-a" href="./login.html">SIGN IN TODAY </a> <i
+                        class='bx bx-right-arrow-alt'></i></button></div>
+        </div>
+
+    </div>
+
+    <!-- Space End -->
+
+    <!-- Category Start -->
+
+    <div class="Category-container">
+        <div class="category-NEW-ARRIVALS">
+            <div class="category-NEW-ARRIVALS-span">
+                <span>NEW ARRIVALS</span>
+            </div>
+            <div class="category-NEW-ARRIVALS-img-1">
+                <img style="width: 85px; height: 105px; padding:5px;" src="./assets/images/book-65.png" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-NEW-ARRIVALS-img-1-name" href="#">Coffee With Tony</a>
+                    <span class="category-NEW-ARRIVALS-img-1-price">$3.70</span>
+                </div>
+
+            </div>
+            <div class="category-NEW-ARRIVALS-img-2">
+                <img style="width: 85px; height: 105px; padding:5px;" src="./assets/images/book-50.jpg" alt="">
+                <div class="col-sm-8" style="width: 200px; ">
+                    <a class="category-NEW-ARRIVALS-img-2-name" href="#">Life 3.0</a>
+                    <span class="category-NEW-ARRIVALS-img-2-price">$5.60</span>
+                </div>
+            </div>
+            <div class="category-NEW-ARRIVALS-img-3">
+                <img width="85px" height="105px" src="./assets/images/book-51.jpg" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-NEW-ARRIVALS-img-3-name" href="#">An Unlimited Mind</a>
+                    <span class="category-NEW-ARRIVALS-img-3-price">$6.80</span>
+                </div>
+            </div>
+            <div class="category-NEW-ARRIVALS-img-4">
+                <img style="width: 85px; height: 105px; padding:5px;" src="./assets/images/book-52.jfif" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-NEW-ARRIVALS-img-4-name" href="#">The Future Of Mankind</a>
+                    <span class="category-NEW-ARRIVALS-img-4-price">$4.00</span>
+                </div>
+            </div>
+            <div class="category-NEW-ARRIVALS-img-5">
+                <img style="width: 85px; height: 105px; padding:5px;" src="./assets/images/book-53.jpg" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-NEW-ARRIVALS-img-5-name" href="#">Dealing With China</a>
+                    <span class="category-NEW-ARRIVALS-img-5-price">$7.59</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="category-FEATURED-PRODUCTS">
+            <div class="category-FEATURED-PRODUCTS-span">
+                <span>FEATURED PRODUCTS</span>
+            </div>
+
+            <div class="category-FEATURED-PRODUCTS-img-1">
+                <img style="width: 85px; height: 105px; padding:5px;" src="./assets/images/book-54.jpg" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-FEATURED-PRODUCTS-img-1-name" href="#">Summary of Big Thoughts</a>
+                    <span class="category-FEATURED-PRODUCTS-img-1-price">$13.45</span>
+                </div>
+            </div>
+
+            <div class="category-FEATURED-PRODUCTS-img-2">
+                <img style="width: 85px; height: 105px; padding:5px;" src="./assets/images/book-55.jpg" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-FEATURED-PRODUCTS-img-2-name" href="#">The Future Of Power</a>
+                    <span class="category-FEATURED-PRODUCTS-img-2-price">$5.68</span>
+                </div>
+            </div>
+            <div class="category-FEATURED-PRODUCTS-img-3">
+                <img style="width: 85px; height: 105px; padding:5px;" src="./assets/images/book-56.jpg" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-FEATURED-PRODUCTS-img-3-name" href="#">The Call of the Wild</a>
+                    <span class="category-FEATURED-PRODUCTS-img-3-price">$2.70</span>
+                </div>
+            </div>
+            <div class="category-FEATURED-PRODUCTS-img-4">
+                <img style="width: 85px; height: 105px;" src="./assets/images/book-57.jpg" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-FEATURED-PRODUCTS-img-4-name" href="#">5 Centimeters Per Second</a>
+                    <span class="category-FEATURED-PRODUCTS-img-4-price">$2.04</span>
+                </div>
+            </div>
+            <div class="category-FEATURED-PRODUCTS-img-5">
+                <img style="width: 85px; height: 105px; padding:5px;" src="./assets/images/book-58.jpg" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-FEATURED-PRODUCTS-img-5-name" href="#">The pioneers</a>
+                    <span class="category-FEATURED-PRODUCTS-img-5-price">$9.50</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-STAFF-PICKS">
+            <div class="category-STAFF-PICKS-span">
+                <span>STAFF PICKS</span>
+            </div>
+            <div class="category-STAFF-PICKS-img-1">
+                <img style="width: 85px; height: 105px;" src="./assets/images/book-67.jpg" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-STAFF-PICKS-img-1-name" href="#">Ownership Age 20</a>
+                    <span class="category-STAFF-PICKS-img-1-price">$5.90</span>
+                </div>
+            </div>
+            <div class="category-STAFF-PICKS-img-2">
+                <img style="width: 85px; height: 105px; padding:5px;" src="./assets/images/book-60.jpg" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-STAFF-PICKS-img-2-name" href="#">East Story West Story</a>
+                    <span class="category-STAFF-PICKS-img-2-price">$3.40</span>
+                </div>
+            </div>
+            <div class="category-STAFF-PICKS-img-3">
+                <img style="width: 85px; height: 105px; padding: 5px 0;" src="./assets/images/book-61.jpg" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-STAFF-PICKS-img-3-name" href="#">A smart city</a>
+                    <span class="category-STAFF-PICKS-img-3-price">$17.40</span>
+                </div>
+            </div>
+            <div class="category-STAFF-PICKS-img-4">
+                <img style="width: 85px; height: 105px; padding:5px;" src="./assets/images/book-64.jpg" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-STAFF-PICKS-img-4-name" href="#">Crime and Punishment</a>
+                    <span class="category-STAFF-PICKS-img-4-price">$14.30</span>
+                </div>
+            </div>
+            <div class="category-STAFF-PICKS-img-5">
+                <img style="width: 85px; height: 105px; padding: 5px 0;" src="./assets/images/book-60.jpg8.jpg" alt="">
+                <div class="col-sm-8" style="width: 200px;">
+                    <a class="category-STAFF-PICKS-img-5-name" href="#">Psychology of Money</a>
+                    <span class="category-STAFF-PICKS-img-5-price">$6.36</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Category End -->
+    <!-- Contact Start -->
+    <!-- SUBSCRIBE -->
+    <div class="contact-subscribe">
+        <div class="contact-subscribe-span">
+            <span class="contact-subscribe-span-1">SUBSCRIBE TO OUR NEWS LETTER</span>
+            <span class="contact-subscribe-span-2">
+                Enter your e-mail address to receive regular updates, as well as news on upcoming events and special
+                offers.</span>
+        </div>
+        <div class="contact-subscribe-input">
+            <input style="width: 314px; height: 51px;" class="input-search form-control" type="search"
+                placeholder="Email Address" aria-label="Search"><i
+                class='contact-subscribe-input-icon bx bxl-gmail'></i>
+        </div>
+    </div>
+
+    <div class="Contact-container">
+        <div class="Contact-1">
+            <div class="Contact-1-logo">
+                <img style="width: 100px; height: 70px;" src="./assets/images/logo.png">
+            </div>
+            <div class="Contact-1-ul">
+                <ul>
+                    <li
+                        style="list-style-type: none; font-size: 15px;margin: 0 0 10px 0; font-family:'Roboto Slab', serif ;">
+                        <i style="font-size: 20px;color: #27ae61; margin:0px 6px 0 0;"
+                            class='bx bx-current-location'></i><span>868 Bechole Road, Victory Lorem Ispuse, New
+                            York</span></li>
+                    <li
+                        style="list-style-type: none; font-size: 15px;margin: 0 0 10px 0; font-family:'Roboto Slab', serif ;">
+                        <i style="font-size: 20px;color: #27ae61; margin:0px 6px 0 0;"
+                            class='bx bx-phone-call'></i><span>Phone: (+80) 123 456 Fax: (+80) 123 456 789</span></li>
+                    <li
+                        style=" list-style-type: none;font-size: 15px;margin: 0 0 10px 0; font-family:'Roboto Slab', serif ;">
+                        <i style="font-size: 20px;color: #27ae61; margin:0px 6px 0 0;"
+                            class='bx bxl-gmail'></i><span>Email: Contact@example.com Website: www.example.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="Contact-2">
+            <span>SHOPPING GUIDE</span>
+            <ul>
+                <li class="Contact-2-ul-li-1"><a class="Contact-2-ul-li-a-1" href="#">How to buy</a></li>
+                <li class="Contact-2-ul-li-2"><a class="Contact-2-ul-li-a-2" href="#">Faq</a></li>
+                <li class="Contact-2-ul-li-3"><a class="Contact-2-ul-li-a-3" href="#">Store Locations</a></li>
+                <li class="Contact-2-ul-li-4"><a class="Contact-2-ul-li-a-4" href="#">Return Policy</a></li>
+                <li class="Contact-2-ul-li-5"><a class="Contact-2-ul-li-a-5" href="#">Payment</a></li>
+                <li class="Contact-2-ul-li-6"><a class="Contact-2-ul-li-a-6" href="#">Shipment</a></li>
+            </ul>
+        </div>
+        <div class="Contact-3">
+            <span>INFORMATION</span>
+            <ul>
+                <li class="Contact-3-ul-li-1"><a class="Contact-3-ul-li-a-1" href="#">About Us</a></li>
+                <li class="Contact-3-ul-li-2"><a class="Contact-3-ul-li-a-2" href="#">Delivery information</a></li>
+                <li class="Contact-3-ul-li-3"><a class="Contact-3-ul-li-a-3" href="#">Privacy policy</a></li>
+                <li class="Contact-3-ul-li-4"><a class="Contact-3-ul-li-a-4" href="#">Discount</a></li>
+                <li class="Contact-3-ul-li-5"><a class="Contact-3-ul-li-a-5" href="#">Customer service</a></li>
+                <li class="Contact-3-ul-li-6"><a class="Contact-3-ul-li-a-6" href="#">Terms & condition</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Contact End -->
+</body>
+
+</html>
